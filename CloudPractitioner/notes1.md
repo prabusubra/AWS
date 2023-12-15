@@ -1,8 +1,19 @@
 1. Elastic Load Balancer(ELB)
-2. Application Load Balancer(ALB)
-3. Auto Scaling Group
-4. Scalability
+       - Application Load Balancer (Layer 7) at http/https/gRPC
+       - Network Load Balancer (Layer 4) high performace
+       - Gateway Load Balancer (Layer 3)
+   
+2. Scalability
     - Vertical -- Increase the size of the instance.
     - Horizontal -- Increase number of instances
-5. High Availability -- Running your application atleast at two Availability Zones(AZ).
-6. Elasticity
+3. High Availability -- Running your application atleast at two Availability Zones(AZ).
+4. Elasticity -- dynamic scaling
+5. AutoScalingGroup(ASG):-
+       - Launch Template
+       - Types
+           - Manually
+           - Dynamic
+           - Scheduled
+           - Predictive
+           - Target Tracking
+           
