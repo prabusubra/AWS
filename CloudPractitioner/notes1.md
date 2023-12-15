@@ -16,4 +16,16 @@
            - Scheduled
            - Predictive
            - Target Tracking
+
+S3:-
+       Simple Storage System(S3)
+       Infinitely Scaling
+       Backup and Storage
+       Disaster Recovery
+       Archive
+
+Policy:-
+       User-Based
+       Resource-Based
+       ACL
            
