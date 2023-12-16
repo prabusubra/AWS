@@ -28,4 +28,42 @@ Policy:-
        User-Based
        Resource-Based
        ACL
+
+Relication:- it is a async operation.
+       Cross-Region Replication
+       Same-Region Replication
+       Different AWS account Replication
+
+Classes:-
+       Standard (99.99 % available)
+       Standard Infrequent Access(IA)
+              - 99.9 % available
+              - suitable for Disaster recovery and backup
+       One Zone Infrequent Access
+              - Data will be lost if one AZ destroyed.
+              - 99.5 % available
+              - suitable for secondary copy of backups.
+       Glacier Instant Retrival
+              - Glacier is for archiving/backups
+              - milli second retrieval
+              - minimum storage duration is 90 days.
+       Glacier Frequent Retrival
+              - Expedited -- 1 to 5 min
+              - standard -- 3 to 4 hours
+              - bulk -- 5 to 12 hours
+              - minimum storage duration is 90 days.
+       Glacier Deep Archive
+              - Standard -- 12 hours
+              - Bulk -- 48 hours
+              - minimum storage duration is 180 days.
+       Instand Tiering
+              - monthly monitoring and auto-tiering fee.
+                     1. Frequent Access Tier - default
+                     2. Infrequent Access Tier - object not accessed by 30 days.
+                     3. Archive Instant Access Tier - object not accessed by 90 days.
+                     4. Archive Access Tier - 90 - 700 days.
+                     5. Deep Archive Access Tier - 180 - 700 days
+       
+       
+       
            
