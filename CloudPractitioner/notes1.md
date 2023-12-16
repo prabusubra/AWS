@@ -70,8 +70,9 @@ AWS Snow Family:-
        - if it takes more than a week to transfer a data, then use snowball device.
        - AWS will send physical device by post office. then u load the data in to it and send back.
        -  Snowball edge
-              - Snowball Edge Storage optimized - 80TB
-              - Snowball Edge Compute Optimized - 42TB of HDD or 28TB NVMe capacity.
+              - Snowball Edge Storage optimized - 40vCPU, 80TB of HDD, 1TB of SDD.
+              - Snowball Edge Compute Optimized - 52vCPU, 39.5TB of HDD, 7.68 of SSD.
+              - Snowball Edge Compute Optimized with GPU
               - Snowcone - small, rugged - 8TB of HDD
               - Snowcone SSD - 14TB
               - Snow Mobile - 10,00,000 TB
