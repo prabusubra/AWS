@@ -63,6 +63,18 @@ Classes:-
                      3. Archive Instant Access Tier - object not accessed by 90 days.
                      4. Archive Access Tier - 90 - 700 days.
                      5. Deep Archive Access Tier - 180 - 700 days
+
+AWS Snow Family:-
+       - data migration with snow family
+       - offline device to perform data migration.
+       - if it takes more than a week to transfer a data, then use snowball device.
+       - AWS will send physical device by post office. then u load the data in to it and send back.
+       -  Snowball edge
+              - Snowball Edge Storage optimized - 80TB
+              - Snowball Edge Compute Optimized - 42TB of HDD or 28TB NVMe capacity.
+              - Snowcone - small, rugged - 8TB of HDD
+              - Snowcone SSD - 14TB
+              - Snow Mobile - 10,00,000 TB
        
        
        
