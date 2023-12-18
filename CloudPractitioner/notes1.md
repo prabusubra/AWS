@@ -76,7 +76,12 @@ AWS Snow Family:-
               - Snowcone - small, rugged - 8TB of HDD
               - Snowcone SSD - 14TB
               - Snow Mobile - 10,00,000 TB
+
+ECS:-
+       - Elastic container service
+       - Fargate
+       - Elastic Container Registry
+       - Private Docker Registry on AWS
        
-       
-       
+    
            
